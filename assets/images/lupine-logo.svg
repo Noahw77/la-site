@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 320" role="img" aria-labelledby="title desc">
+  <title id="title">Lupine Adventures logo</title>
+  <desc id="desc">Stylized lupine flower with Lupine Adventures wordmark.</desc>
+  <rect width="220" height="320" fill="#FFFFFB"/>
+  <g stroke="#95785F" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M110 245 C110 220 103 195 92 172"/>
+    <path d="M112 245 C114 216 123 189 138 167"/>
+  </g>
+  <g>
+    <ellipse cx="90" cy="170" rx="11" ry="6" fill="#C4B6DD" transform="rotate(-36 90 170)"/>
+    <ellipse cx="83" cy="182" rx="11" ry="6" fill="#9F8EC6" transform="rotate(-21 83 182)"/>
+    <ellipse cx="97" cy="185" rx="10" ry="6" fill="#D9CCE9" transform="rotate(16 97 185)"/>
+    <ellipse cx="79" cy="197" rx="10" ry="6" fill="#D5AFC8" transform="rotate(-25 79 197)"/>
+    <ellipse cx="95" cy="200" rx="10" ry="6" fill="#A7B49A" transform="rotate(12 95 200)"/>
+    <ellipse cx="111" cy="198" rx="11" ry="6" fill="#C4B6DD" transform="rotate(27 111 198)"/>
+    <ellipse cx="103" cy="212" rx="10" ry="6" fill="#95785F" opacity="0.55" transform="rotate(30 103 212)"/>
+    <ellipse cx="120" cy="209" rx="11" ry="6" fill="#9F8EC6" transform="rotate(38 120 209)"/>
+    <ellipse cx="132" cy="194" rx="10" ry="6" fill="#B9CFAC" transform="rotate(24 132 194)"/>
+    <ellipse cx="139" cy="179" rx="11" ry="6" fill="#C4B6DD" transform="rotate(18 139 179)"/>
+    <ellipse cx="126" cy="172" rx="10" ry="6" fill="#D9CCE9" transform="rotate(-12 126 172)"/>
+    <ellipse cx="115" cy="163" rx="9" ry="5" fill="#9F8EC6" transform="rotate(20 115 163)"/>
+    <ellipse cx="103" cy="156" rx="8" ry="5" fill="#C4B6DD" transform="rotate(-18 103 156)"/>
+    <ellipse cx="111" cy="146" rx="7" ry="4" fill="#A7B49A" transform="rotate(10 111 146)"/>
+  </g>
+  <text x="110" y="284" text-anchor="middle" font-size="28" font-family="Georgia, serif" letter-spacing="3" fill="#A7B49A">LUPINE</text>
+  <text x="110" y="305" text-anchor="middle" font-size="12" font-family="Arial, sans-serif" letter-spacing="5" fill="#9F8EC6">ADVENTURES</text>
+</svg>
