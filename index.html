@@ -7,8 +7,46 @@
   <meta name="description" content="Jackson Hole locals crafting bold, friendly, high-end travel experiences in Jackson and Yellowstone." />
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body data-nav="home">
-  <div id="site-header"></div>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/images/lupine-logo.svg" alt="Lupine Adventures logo" />
+        <span class="brand-title">LUPINE ADVENTURES</span>
+      </a>
+
+      <button class="nav-toggle" data-nav-toggle>Menu</button>
+
+      <nav class="main-nav" data-nav-menu>
+        <a href="services.html">Services</a>
+        <a href="partners.html">Partners</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="partners.html">Partners</a>
+
+        <div class="dropdown">
+          <button class="dropdown-toggle" data-dropdown-toggle aria-expanded="false">Resources</button>
+          <div class="dropdown-menu">
+            <a href="resources/restaurants.html">Restaurants</a>
+            <a href="resources/hikes.html">Hikes</a>
+            <a href="resources/activities.html">Low-cost & free activities</a>
+            <a href="resources/history.html">Jackson Hole history</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button class="dropdown-toggle" data-dropdown-toggle aria-expanded="false">About</button>
+          <div class="dropdown-menu">
+            <a href="about/company-history.html">Company history</a>
+            <a href="about/team.html">Meet the team</a>
+            <a href="about/philosophy.html">Trip planning philosophy</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
 
   <section class="hero">
     <div class="hero-inner">
@@ -20,6 +58,7 @@
       </p>
       <div class="cta-row">
         <a class="btn btn-primary" href="contact.html">Book a free consultation</a>
+        <a class="btn btn-primary" href="services.html">Book a free consultation</a>
         <a class="btn btn-secondary" href="partners.html">Browse affiliate booking links</a>
       </div>
     </div>
@@ -75,11 +114,36 @@
     <p class="section-lead">Most guests begin with a free 20-minute call. We’ll help you choose between concierge guidance and full-service planning.</p>
     <div class="cta-row">
       <a class="btn btn-primary" href="contact.html">Schedule consultation</a>
+      <a class="btn btn-primary" href="services.html#consultation">Schedule consultation</a>
       <a class="btn btn-secondary" href="about/team.html">Meet the team</a>
     </div>
   </section>
 
-  <div id="site-footer"></div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h3>Lupine Adventures</h3>
+        <p class="small">Jackson Hole concierge and full-service trip planning for Jackson and Yellowstone.</p>
+        <p class="small">Jackson Hole concierge and full-service travel planning for Jackson and Yellowstone.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <p>
+          <a href="services.html">Services</a><br />
+          <a href="resources/restaurants.html">Resources</a><br />
+          <a href="blog.html">Blog</a>
+          <a href="resources/restaurants.html">Restaurants</a><br />
+          <a href="resources/hikes.html">Hikes</a><br />
+          <a href="resources/activities.html">Low-cost & free activities</a>
+        </p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href="contact.html">Contact form</a><br /><a href="mailto:hello@lupineadventures.com">hello@lupineadventures.com</a><br />(307) 000-0000</p>
+        <p><a href="mailto:hello@lupineadventures.com">hello@lupineadventures.com</a><br />(307) 000-0000</p>
+      </div>
+    </div>
+  </footer>
 
   <script src="assets/js/main.js"></script>
 </body>
