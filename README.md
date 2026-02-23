@@ -41,3 +41,11 @@ Then open `http://localhost:4173`.
 - Replace placeholder blog article copy with your real content as you publish.
 - Current logo is an SVG adaptation and can be replaced at `assets/images/lupine-logo.svg` with the final official brand file.
 - Background and section placeholder images are in `assets/images/placeholders/` and can be replaced with production photography when available.
+- Current logo is an SVG adaptation and can be replaced at `assets/images/lupine-logo.svg` with the final official brand file.
+
+
+## Placeholder artwork
+- Background and section placeholder images are in `assets/images/placeholders/` and can be replaced with production photography when available.
+
+- `contact.html`: Contact page with inquiry form for consultations and full trip planning.
+- `blog.html`: Blog landing page for travel tips and Jackson/Yellowstone planning content.
