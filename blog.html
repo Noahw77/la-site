@@ -6,41 +6,8 @@
   <title>Blog | Lupine Adventures</title>
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
-<body>
-  <header class="site-header">
-    <div class="nav-wrap">
-      <a class="brand" href="index.html">
-        <img src="assets/images/lupine-logo.svg" alt="Lupine Adventures logo" />
-        <span class="brand-title">LUPINE ADVENTURES</span>
-      </a>
-      <button class="nav-toggle" data-nav-toggle>Menu</button>
-      <nav class="main-nav" data-nav-menu>
-        <a href="services.html">Services</a>
-        <a href="partners.html">Partners</a>
-        <a class="active" href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-
-        <div class="dropdown">
-          <button class="dropdown-toggle" data-dropdown-toggle aria-expanded="false">Resources</button>
-          <div class="dropdown-menu">
-            <a href="resources/restaurants.html">Restaurants</a>
-            <a href="resources/hikes.html">Hikes</a>
-            <a href="resources/activities.html">Low-cost & free activities</a>
-            <a href="resources/history.html">Jackson Hole history</a>
-          </div>
-        </div>
-
-        <div class="dropdown">
-          <button class="dropdown-toggle" data-dropdown-toggle aria-expanded="false">About</button>
-          <div class="dropdown-menu">
-            <a href="about/company-history.html">Company history</a>
-            <a href="about/team.html">Meet the team</a>
-            <a href="about/philosophy.html">Trip planning philosophy</a>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
+<body data-nav="blog">
+  <div id="site-header"></div>
 
   <section class="subhero">
     <div class="subhero-inner">
@@ -53,46 +20,27 @@
   <section class="section">
     <div class="grid-3">
       <article class="card">
-        <p class="eyebrow">Spring</p>
-        <h3>When to visit Jackson Hole for fewer crowds</h3>
-        <p>How shoulder-season travel can unlock easier reservations, better value, and relaxed pacing.</p>
-        <a href="contact.html">Get a custom plan</a>
-      </article>
-      <article class="card">
         <p class="eyebrow">Dining</p>
-        <h3>Jackson dinner strategy: where to book first</h3>
-        <p>Our approach for balancing must-book restaurants with flexible, spontaneous options.</p>
-        <a href="resources/restaurants.html">Browse restaurant picks</a>
+        <h3>Best Jackson restaurants for every travel style</h3>
+        <p>A local-first overview of date-night spots, family favorites, and quick bites near your daily plans.</p>
+        <a href="blog/jackson-restaurants-guide.html">Read article</a>
       </article>
       <article class="card">
-        <p class="eyebrow">Yellowstone</p>
-        <h3>Day-trip vs overnight: what makes sense?</h3>
-        <p>A practical framework for choosing the right Yellowstone format based on your group style.</p>
-        <a href="services.html">Compare service options</a>
+        <p class="eyebrow">National Park</p>
+        <h3>Top things to do in Grand Teton National Park</h3>
+        <p>A practical list of scenic stops, hikes, wildlife timing, and logistics for first-time and repeat visitors.</p>
+        <a href="blog/grand-teton-things-to-do.html">Read article</a>
+      </article>
+      <article class="card">
+        <p class="eyebrow">Winter</p>
+        <h3>Skijouring in Jackson: local events and what to know</h3>
+        <p>Get a quick primer on local skijouring culture, where to watch, and how to plan a winter weekend around it.</p>
+        <a href="blog/local-skijouring-events.html">Read article</a>
       </article>
     </div>
   </section>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div>
-        <h3>Lupine Adventures</h3>
-        <p class="small">Jackson Hole concierge and full-service trip planning for Jackson and Yellowstone.</p>
-      </div>
-      <div>
-        <h4>Explore</h4>
-        <p>
-          <a href="services.html">Services</a><br />
-          <a href="resources/restaurants.html">Resources</a><br />
-          <a href="blog.html">Blog</a>
-        </p>
-      </div>
-      <div>
-        <h4>Contact</h4>
-        <p><a href="contact.html">Contact form</a><br /><a href="mailto:hello@lupineadventures.com">hello@lupineadventures.com</a><br />(307) 000-0000</p>
-      </div>
-    </div>
-  </footer>
+  <div id="site-footer"></div>
   <script src="assets/js/main.js"></script>
 </body>
 </html>
