@@ -32,3 +32,6 @@ Then open `http://localhost:4173`.
 
 ## Placeholder artwork
 - Background and section placeholder images are in `assets/images/placeholders/` and can be replaced with production photography when available.
+
+- `contact.html`: Contact page with inquiry form for consultations and full trip planning.
+- `blog.html`: Blog landing page for travel tips and Jackson/Yellowstone planning content.
